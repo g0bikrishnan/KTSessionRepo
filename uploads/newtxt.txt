@@ -1,0 +1,27 @@
+CREATE TABLE student(
+   name       VARCHAR(10) NOT NULL PRIMARY KEY
+  ,gender     VARCHAR(6) NOT NULL
+  ,marks      INTEGER  NOT NULL
+  ,percentage INTEGER(3) NOT NULL
+  ,status     VARCHAR(4) NOT NULL
+);
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Cadie','Female',33,'33%','Fail');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Jenna','Female',32,'32%','Fail');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Alexander','Male',21,'21%','Fail');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Blake','Male',16,'16%','Fail');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Alan','Male',09,'9%','Fail');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Rubie','Female',61,'61%','Pass');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Andrew','Male',92,'92%','Pass');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Mike','Male',04,'4%','Fail');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Arnold','Male',66,'66%','Pass');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Alexia','Female',96,'96%','Pass');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Haris','Male',44,'44%','Fail');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Tara','Female',80,'80%','Pass');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Evelyn','Female',26,'26%','Fail');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Tony','Male',53,'53%','Pass');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Kristian','Male',01,'1%','Fail');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Cherry','Female',61,'61%','Pass');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Edith','Female',30,'30%','Fail');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Camila','Female',73,'73%','Pass');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Chelsea','Female',73,'73%','Pass');
+INSERT INTO mytable(name,gender,marks,percentage,status) VALUES ('Deanna','Female',03,'3%','Fail');
